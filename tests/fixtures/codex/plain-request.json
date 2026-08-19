@@ -1,0 +1,7 @@
+{
+  "model": "example-model",
+  "input": [{"role": "user", "content": "List the files in the project."}],
+  "tools": [],
+  "reasoning": {"effort": "low"},
+  "stream": true
+}

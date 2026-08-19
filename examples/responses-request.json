@@ -1,0 +1,13 @@
+{
+  "model": "example-model",
+  "input": [
+    {
+      "role": "user",
+      "content": "Reply with a short greeting."
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "stream": false
+}

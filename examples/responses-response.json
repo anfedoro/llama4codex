@@ -1,0 +1,18 @@
+{
+  "id": "resp_example",
+  "object": "response",
+  "status": "completed",
+  "model": "example-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "Hello from a local model."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "stream": true,
+  "tools": [
+    {
+      "type": "tool_search",
+      "execution": "client",
+      "description": "Searches over deferred tool metadata and exposes matching tools for the next model call.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "limit": {"type": "number"},
+          "query": {"type": "string"}
+        },
+        "required": ["query"],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "input": [
+    {
+      "type": "tool_search_call",
+      "call_id": "call-search",
+      "execution": "client",
+      "arguments": {"query": "codebase memory search_graph", "limit": 8}
+    },
+    {
+      "type": "tool_search_output",
+      "call_id": "call-search",
+      "status": "completed",
+      "execution": "client",
+      "tools": []
+    }
+  ]
+}

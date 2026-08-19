@@ -1,0 +1,9 @@
+version = 1
+
+[*]
+ctx-size = 8192
+n-gpu-layers = 999
+
+[example-model]
+model = /root/models/example-model.gguf
+alias = example-model

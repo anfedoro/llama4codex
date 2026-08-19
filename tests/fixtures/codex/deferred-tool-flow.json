@@ -1,0 +1,18 @@
+{
+  "initial_request": {
+    "model": "example-model",
+    "input": [{"role": "user", "content": "Find the health endpoint."}],
+    "stream": true
+  },
+  "tool_search_output": {
+    "type": "tool_search_output",
+    "call_id": "call-search",
+    "status": "completed",
+    "tools": []
+  },
+  "follow_up_request": {
+    "model": "example-model",
+    "input": [{"role": "user", "content": "Continue."}],
+    "stream": true
+  }
+}

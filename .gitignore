@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.codebase-memory/
+*.py[cod]
+
+# Local diagnostics and model/runtime artifacts.
+*.pcap
+*.pcapng
+*.cap
+*.log
+captures/
+traces/
+tcpdump/
+models/
+model-cache/
